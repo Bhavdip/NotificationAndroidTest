@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="NotificationBinding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/btnLikeNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Like Notification" />
+
+        <Button
+            android:id="@+id/btnVerificationNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Verification Notification" />
+
+
+        <Button
+            android:id="@+id/btnReviewNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Review Notification" />
+
+        <Button
+            android:id="@+id/btnTextNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Text Notification" />
+
+        <Button
+            android:id="@+id/btnMessageNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Message Notification" />
+
+    </LinearLayout>
+</layout>
